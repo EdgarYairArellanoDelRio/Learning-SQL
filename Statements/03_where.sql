@@ -8,7 +8,9 @@ SELECT * FROM users WHERE age = 21;
 -- Filtrar todos los nombres de la tabla "users" con edad igual a 21
 SELECT name FROM users where age = 21; 
 
--- Filtrar todos los nombres distintos de la tabla "users"
+-- Filtrar todos los nombres distintos de la tabla "users" con edad igual a 21
+SELECT DISTINCT name FROM users WHERE age = 15;
+
 /* OPERADORES COMUNES EN WHERE
 
     1.- Operadores de comparación.
